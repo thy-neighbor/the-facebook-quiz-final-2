@@ -1,0 +1,189 @@
+header{
+  border: 1px solid gainsboro;
+  background-color:white;
+}
+
+body .top-bar-logo{
+  display: inline-block;
+}
+
+body h1.top-bar-logo > img{
+  position:relative;
+  top: 20px;
+}
+
+body{
+  /*background: #298eea;*/
+  background:#0004D9;
+  font-family: "Roboto", helvetica, sans-serif;
+  padding: 60px 0 0;
+  margin: 0;
+  font-size: 18px;
+}
+
+main{
+  color:white;
+}
+
+.correct-count{
+  text-align: right;
+  display:inline-block;
+  position: right;
+}
+
+button:focus{
+  background-color: white;
+}
+
+ul.radio{
+  list-style: none;
+}
+
+ul.radio li,input { 
+  border: 1px transparent solid; 
+} 
+
+ul.radio li:hover, ul.radio li:focus,input:focus  { 
+  outline: auto 15px #ffffff;
+  box-shadow: 0;
+} 
+
+.bottom-border{
+  border-bottom: dashed #ffffff 4px ;
+}
+/*Start Page*/
+/**************************************************/
+.start-page .start-button{
+  height: auto;
+  width:200px;
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+  color: white;
+  background: #15CD72;
+  border: 0;
+  cursor: pointer;
+  margin-bottom: 0;
+}
+
+.start-button:hover,
+.start-button:focus{
+  background-color:rgb(18, 173, 96);
+}
+
+/*Question Page*/
+/**************************************************/
+section.Question-body{
+  border: 1px solid gainsboro;
+}
+
+.multiple-choice{
+  margin:0 auto;
+}
+
+.multiple-choice > fieldset{
+  border: none;
+}
+
+h3 > span.js-correct-count{
+  text-align: right;
+}
+
+fieldset>h3{
+  margin-top: 0;
+}
+
+
+input*{
+  padding-bottom: 10px;
+  background-color: none;
+  opacity:0;
+}
+
+.Question-body button{
+  margin-top:10px;
+  height: auto;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+}
+
+.Question-body button:hover,.Question-body button:focus{
+  background-color:rgb(174, 179, 177);
+}
+
+/*
+section.Question-body{
+  display: none;
+}
+*/
+/*Start Page*/
+/*************************************************
+section.start-page{
+  display: none;
+}
+*/
+
+/*Feedback Page*/
+/**************************************************
+section.feedback-page{
+  display: none;
+}
+*/
+
+.feedback-page{
+  border: 1px dotted blue;
+}
+
+.feedback-page > p{
+  font-size: 20px;
+}
+
+.red{
+  background-color: rgba(255, 72, 72, 0.733);
+  color:white;
+}
+
+.green{
+  background-color:rgb(85, 202, 85);
+  color:white; 
+}
+
+button.continue-button{
+  margin-top:10px;
+  height: auto;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+}
+
+button.continue-button:hover,button.continue-button:focus{
+  background-color:rgb(174, 179, 177);
+}
+
+/*Final Page*/
+/**************************************************
+section.final-page{
+  display:none;
+}
+*/
+
+button.final-reset-button{
+  height: auto;
+  width:200px;
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+  color: white;
+  background: #15CD72;
+  border: 0;
+  cursor: pointer;
+  margin-bottom: 0;
+}
+
+button.final-reset-button:hover
+button.final-reset-button:focus{
+  background-color:rgb(18, 173, 96);
+}
